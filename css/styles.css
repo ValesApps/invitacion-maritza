@@ -1,0 +1,619 @@
+/* Estilos para la página #ffe9da original */
+body {
+    font-family: 'Noto Serif TC', serif;
+    margin: 0;
+    background-image: url(Source/beige.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header {
+     background: linear-gradient(rgba(245, 245, 220, 0.35), rgba(245, 245, 220, 0.35)), url(/source/image11.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+#content {
+    padding: 20px;
+}
+main {
+    padding-top: 60px;
+}
+#popup {
+    font-family: 'Noto Serif TC', serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    z-index: 9999; /* Asegura que el popup esté en el frente */ 
+   
+}
+#popup-content {
+  background-color: #ffffff; 
+  width :70%; 
+  padding :20px; 
+  text-align:center; 
+border-radius: 10px;
+}
+#accept-button {
+    margin-top: 20px; 
+    background-color: #ada86d;
+    border: none; 
+}
+#pause-button,
+#play-button {
+  display:none; 
+  position :fixed; 
+  top :10px; 
+  right :10px; 
+  background:none; 
+  border:none; 
+  cursor:pointer; 
+  color :goldenrod; 
+  font-size :24px; 
+  outline:none;
+  z-index: 9999; /* Asegura que los botones estén en el frente */
+}
+h1 {
+  font-family: 'Noto Serif TC', serif; 
+  color : #ffffff; 
+  font-size :90px;
+  text-shadow: -5px 3px 3px #808080;
+    align-items:center; 
+     justify-content:center;
+}
+
+#spacer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffe9da;
+  padding: 20px;
+  text-align: center;
+}
+
+#spacer p {
+  margin: 0;
+}
+
+.contador-content{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+.contador-img{
+    height: 30px;
+    width: 30px;
+}
+
+
+
+/* Estilos para el carrusel */
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 33.75em;
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+}
+
+.carousel-inner {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.carousel-button.left {
+    left: 20px;
+}
+
+.carousel-button.right {
+    right: 20px;
+}
+
+.centered-paragraph {
+    text-align: center;
+}
+
+.centered-paragraph p {
+    display: inline-block;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 90%;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: bold;
+    color: #5e5e5e;
+    font-size: 18px;
+    
+}
+
+/*MAPA*/
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 20px;
+}
+
+.image-container {
+display: flex;
+align-items: center;
+justify-content: center;
+max-width: 100%;
+overflow: hidden;
+}
+
+.image-container img {
+width: 90%;
+height: auto;
+border-radius: 30px;
+border: 1px solid #ffffff;
+
+}
+
+.map-container {
+padding: 20px;
+border-radius: 10px;
+text-align: center;
+margin-top: 20px;
+}
+
+.centered-paragraph {
+text-align: center;
+margin: 0;
+}
+
+#location-button {
+background-color: #ada86d;
+border: none;
+}
+
+
+/*titulo ceremonia*/
+.tituloceremony-container {
+      color: #000000;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      margin-top: 20px;
+}
+.tituloceremony-container h2 {
+      margin: 0;
+      font-size: 24px;
+      font-family: 'Merienda', cursive;
+}
+
+.img-ceremony{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+/* informacion religiosa*/
+.ceremony-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 4cm;
+}
+
+.ceremony-container h2 {
+      font-size: 24px;
+      text-shadow: -5px 3px 3px #808080;
+      font-family: 'Noto Serif TC', serif;
+      margin: 0;
+      text-align: center; /* Alinea el texto al centro horizontalmente */
+}
+
+@media screen and (max-width: 768px) {
+.ceremony-container {
+     height: auto;
+}
+
+.ceremony-container h2 {
+     font-size: 24px;
+     text-shadow: -5px 3px 3px #808080;
+     font-family: 'Noto Serif TC', serif;
+     margin: 0;
+     text-align: center; /* Alinea el texto al centro horizontalmente */
+}
+}
+table {
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+}
+
+/* estilos para el titulo de ebndicion*/
+.bendicion-container {
+  color: #000000;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  font-style: bold;
+}
+.bendicion-container p {
+  margin: 0;
+}
+.bendicion-container i {
+      margin-right: 5px;
+}
+
+
+/* estilos para los nombres*/
+.blessing-container {
+padding: 20px;
+border-radius: 10px;
+text-align: center;
+margin-top: 20px;
+}
+
+.blessing-container h3 {
+font-size: 24px;
+margin-bottom: 5px; /* Agrega un margen inferior para separar los nombres */
+}
+
+.blessing-container p {
+font-size: 20px;
+}
+
+.blessing-container i {
+margin-left: 1px; /* Ajusta el espaciado entre el título y el icono según tus preferencias */
+font-size: 20px; /* Ajusta el tamaño del icono según tus preferencias */
+}
+
+/* Estilos para la sección SALÓN */
+.salon-section {
+
+      color: #000000;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      margin-top: 20px;
+}
+
+.salon-section h2 {
+    margin: 0;
+      font-size: 24px;
+      font-family: 'Merienda', cursive;
+}
+
+/* Estilos para la sección del mapa del salon*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.map-container {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#location-button {
+    background-color: #ada86d;
+    border: none;
+}
+
+.img-novia-icon{
+    width: 50px;
+    height: 50px;
+
+}
+
+ /* Estilos para la sección DRESS CODE */
+.dress-code-section {
+    color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dress-code-section h3 {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Merienda', cursive;
+}
+
+.dress-code-section p {
+    font-size: 18px;
+    font-family: 'Noto Serif TC', serif;
+    margin-bottom: 10px;
+}
+
+
+/* Estilos para el icono del Dress Code */
+.dress-code-icon {
+    width: 150px;
+    height: 150px;
+}
+.dress-code-icon2 {
+    width: 44px;
+    height: 44px;
+}
+
+
+/* estilo para el aviso de ñiños*/
+
+.sin-ninos-section {
+    color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sin-ninos-section h2 {
+    margin: 0;
+    font-size: 24px;
+    font-family:'Merienda', cursive;
+}
+
+.sin-ninos-section p {
+    font-size: 18px;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.child-icon {
+    width: 150px;
+    height: 150px;
+}
+
+/* Estilos para la nueva sección MESA DE REGALOS */
+.mesa-de-regalos-section {
+    color: #000000; 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mesa-de-regalos-section h2 {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Merienda', cursive;
+    
+}
+
+.mesa-de-regalos-section p {
+    font-size: 18px;
+    font-family: 'Noto Serif TC', serif;
+    margin-bottom: 10px;
+}
+
+.mesa-de-regalos-button {
+    background-color: #ada86d;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px; /* Tamaño del botón más pequeño */
+    color: #ffffff;
+    font-size: 16px; /* Tamaño de fuente reducido */
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: 'Noto Serif TC', serif;
+    text-decoration: none;
+}
+
+.mesa-de-regalos-button:hover {
+    background-color: #cab700;
+}
+
+.img-regalo{
+    width: 50px;
+    height: 50px;
+}
+
+.img-mesa{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+.img-separador{
+    width: 300px;
+    height: 200px;
+    
+}
+
+.separador-section {
+    height: 200px;
+    color: #000000;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+/* Estilos para la sección de confirmación de asistencia */
+.confirmation-form-container {
+text-align: center;
+margin-top: 20px;
+color: #000000;
+padding: 20px;
+border-radius: 10px;
+}
+
+.confirmation-form-container p {
+margin: 0;
+font-size: 24px;
+font-weight: bold;
+font-family: 'Merienda' , cursive;
+}
+
+.confirmation-form-container a {
+text-decoration: none;
+}
+
+.confirmation-form-container button {
+background-color: #ada86d;
+border: none;
+cursor: pointer;
+padding: 10px 20px;
+color: #ffffff;
+font-size: 18px;
+border-radius: 5px;
+text-transform: uppercase;
+font-family: 'Noto Serif TC', serif;
+transition: background-color 0.3s ease;
+}
+
+.confirmation-form-container button:hover {
+background-color: #cab700;
+}
+
+.img-calendar{
+width: 50px;
+height: 50px;
+}
+
+.img-cheque{
+width: 50px;
+height: 50px;
+}
+
+
+
+
+/* hacer que aparezcan las letras del header*/
+/* Ocultar inicialmente los elementos con la clase "appear" */
+.appear {
+    opacity: 0;
+  }
+
+/* Mostrar los elementos con la clase "appear" con una animación */
+ .appear.show {
+     opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
+
+/* Estilos para el contenedor de la frase */
+.frase-container {
+max-width: 600px;
+margin: 0 auto;
+padding: 20px;
+}
+
+/* Estilos para el elemento con la clase "frase" que esta despues delheader */
+.img-frase-top{
+    width: 50px;
+    height: 50px;
+}
+
+
+.frase {
+opacity: 0; /* Establecemos la opacidad inicial en 0 */
+font-family: 'Noto Serif TC', serif;
+color: #5e5e5e;
+font-size: 18px;
+text-align: center;
+padding: 20px;
+/*  margin-top: 20px;*/
+transition: opacity 1s ease-in-out; /* Agregamos una transición de opacidad */
+}
+
+/* circulitos de colores no permitidos*/
+
+.dress-code-paragraph {
+display: inline;
+position: relative;
+}
+
+.color-circle {
+display: inline-block;
+width: 0.9em; /* Ajusta el tamaño de los círculos */
+height: 0.9em; /* Igual que el ancho para mantener la forma circular */
+margin: 0 2px; /* Ajusta el espaciado entre los círculos */
+border-radius: 50%;
+border-color: #000000;
+border-style: solid;
+}
+
+
+/* Estilos para la nueva sección */
+.reveal-text {
+text-align: center;
+padding: 5px 0;
+background-color: #ffffff; /* Puedes ajustar el color de fondo según tus preferencias */
+}
+
+.reveal-text h2 {
+font-size: 36px;
+margin: 0;
+margin-bottom: 10px;
+color: #5e5e5e;
+}
+
+.reveal-text p {
+font-family: 'Pinyon Script', cursive;
+font-size: 28px;
+margin: 0;
+color: #5e5e5e;
+}
+
+.thank-you{
+background: linear-gradient(rgba(245, 245, 220, 0.75), rgba(245, 245, 220, 0.75)), url(/source/image3.jpg) no-repeat center center;
+background-size: cover;
+background-position: center center;
+border: #ffffff;
+text-align: center;
+height: 300px;
+width: auto;
+
+}
+
+.thank-you p{
+text-align: center;
+padding: 5em 0;
+font-style: bold;
+font-size: 21px;
+}
