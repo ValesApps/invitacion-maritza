@@ -233,3 +233,19 @@ sr.reveal('.carousel', { interval: 200 });
   sr.reveal('.container', { interval: 200 });
   sr.reveal('.tituloceremony-container', { interval: 200 });
   sr.reveal('.thank-you', { interval: 200 });
+
+// Función para enviar mensaje de WhatsApp
+function sendWhatsAppMessage(message) {
+  const phoneNumber = '+523338062465'; // Reemplaza con el número de WhatsApp destino
+  const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+  window.open(whatsappURL, '_blank');
+}
+
+// Capturar respuesta y enviar mensaje de WhatsApp
+document.getElementById('yes-button').addEventListener('click', function() {
+  sendWhatsAppMessage('Confirmo mi asistencia a la boda chique. ¡Nos vemos pronto!');
+});
+
+document.getElementById('no-button').addEventListener('click', function() {
+  sendWhatsAppMessage('Lamento informar que no podré asistir picate la cola. ¡Espero que tengan un gran día!');
+});
