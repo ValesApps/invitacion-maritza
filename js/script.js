@@ -145,7 +145,7 @@ rightButton.addEventListener("click", nextSlide);
   
 // Código JavaScript para la cuenta regresiva
   const countdownElement = document.getElementById('countdown-timer');
-  const weddingDate = new Date('October 21, 2023 00:00:00').getTime();
+  const weddingDate = new Date('Novemberer 18, 2023 18:00:00').getTime();
 
   function updateCountdown() {
       const now = new Date().getTime();
@@ -177,14 +177,14 @@ rightButton.addEventListener("click", nextSlide);
 
   document.getElementById("agregar-al-calendario-button").onclick = function() {
 // Formatear la fecha de inicio y fin para el evento
-const startDate = new Date('2023-10-21T18:00:00');
-const endDate = new Date('2023-10-21T23:00:00');
+const startDate = new Date('2023-11-18T18:00:00');
+const endDate = new Date('2023-11-19T23:00:00');
 
 // Crear la URL para agregar el evento al calendario (Google Calendar y otros)
-const googleCalendarLink = `https://www.google.com/calendar/render?action=TEMPLATE&text=Boda+Martha+y+Ricardo&dates=${startDate.toISOString().replace(/-|:|\.\d+/g, "")}/${endDate.toISOString().replace(/-|:|\.\d+/g, "")}&details=¡No+te+pierdas+nuestra+boda!&location=Parroquia+de+Nuestra+Señora+de+Guadalupe,+AV.+Tepeyac+550,+Col:+Chapalita,+Guadalajara,+Jalisco`;
+const googleCalendarLink = `https://www.google.com/calendar/render?action=TEMPLATE&text=Boda+Maritza+y+Oscar&dates=${startDate.toISOString().replace(/-|:|\.\d+/g, "")}/${endDate.toISOString().replace(/-|:|\.\d+/g, "")}&details=¡No+te+pierdas+nuestra+boda!&location=Parroquia+de+Nuestra+Señora+de+Bugambilias,+De+Las+Magnolias+111,+Col:+Bugambilias,+Zapopan,+Jalisco`;
 
 // Enlace para dispositivos iOS (iPhone, iPad)
-const iOsCalendarLink = `webcal://www.google.com/calendar/event?text=Nuestra+Boda&dates=${startDate.toISOString().replace(/-|:|\.\d+/g, "")}/${endDate.toISOString().replace(/-|:|\.\d+/g, "")}&details=¡No+te+pierdas+nuestra+boda!&location=Parroquia+de+Nuestra+Señora+de+Guadalupe,+AV.+Tepeyac+550,+Col:+Chapalita,+Guadalajara,+Jalisco`;
+const iOsCalendarLink = `webcal://www.google.com/calendar/event?text=Nuestra+Boda&dates=${startDate.toISOString().replace(/-|:|\.\d+/g, "")}/${endDate.toISOString().replace(/-|:|\.\d+/g, "")}&details=¡No+te+pierdas+nuestra+boda!&location=Parroquia+de+Nuestra+Señora+de+Bugambilias,+De+Las+Magnolias+111,+Col:+Bugambilias,+Zapopan,+Jalisco`;
 
 // Intentar abrir primero el enlace para iOS y, si falla, abrir el enlace para otros dispositivos
 const openInIos = () => {
@@ -235,17 +235,28 @@ sr.reveal('.carousel', { interval: 200 });
   sr.reveal('.thank-you', { interval: 200 });
 
 // Función para enviar mensaje de WhatsApp
-function sendWhatsAppMessage(message) {
-  const phoneNumber = '+523338062465'; // Reemplaza con el número de WhatsApp destino
-  const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
-  window.open(whatsappURL, '_blank');
+function confirmAttendanceToBride(phoneNumber) {
+    const message = "¡Hola! Quiero confirmar mi asistencia a tu boda. ¡Nos vemos pronto!";
+    sendWhatsAppMessage(phoneNumber, message);
 }
 
-// Capturar respuesta y enviar mensaje de WhatsApp
-document.getElementById('yes-button').addEventListener('click', function() {
-  sendWhatsAppMessage('Confirmo mi asistencia a la boda chique. ¡Nos vemos pronto!');
-});
+function confirmNotAttendanceToBride(phoneNumber) {
+    const message = "Hola, lamento informar que no podré asistir a tu boda. ¡Espero que tengan un día maravilloso!";
+    sendWhatsAppMessage(phoneNumber, message);
+}
 
-document.getElementById('no-button').addEventListener('click', function() {
-  sendWhatsAppMessage('Lamento informar que no podré asistir picate la cola. ¡Espero que tengan un gran día!');
-});
+function confirmAttendanceToGroom(phoneNumber) {
+    const message = "¡Hola! Quiero confirmar mi asistencia a tu boda. ¡Nos vemos pronto!";
+    sendWhatsAppMessage(phoneNumber, message);
+}
+
+function confirmNotAttendanceToGroom(phoneNumber) {
+    const message = "Hola, lamento informar que no podré asistir a tu boda. ¡Espero que tengan un día maravilloso!";
+    sendWhatsAppMessage(phoneNumber, message);
+}
+
+function sendWhatsAppMessage(phoneNumber, message) {
+    const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+    window.open(url, '_blank');
+}
+
