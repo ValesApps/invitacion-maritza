@@ -241,7 +241,7 @@ function confirmAttendanceToBride(phoneNumber) {
 }
 
 function confirmNotAttendanceToBride(phoneNumber) {
-    const message = "Hola, lamento informar que no podré asistir a tu boda. ¡Espero que tengan un día maravilloso!";
+    const message = "Hola, lamento informar que no podré asistir a tu boda picate la cola. ¡Espero que tengan un día maravilloso!";
     sendWhatsAppMessage(phoneNumber, message);
 }
 
