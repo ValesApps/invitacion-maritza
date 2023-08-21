@@ -3,7 +3,7 @@
     document.getElementById("popup").style.display = "flex";
 }
 
-var audio = new Audio("source/cancion1.mp3");
+var audio = new Audio("source/cancion2.webm");
 
 document.getElementById("accept-button").onclick = function() {
     document.getElementById("popup").style.display = "none";
