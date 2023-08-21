@@ -160,7 +160,7 @@ h1 {
     text-align: justify;
     margin: 0 auto;
     max-width: 90%;
-    font-family: 'Noto Serif TC', serif;
+    style="font-family: 'Comfortaa', cursive;"
     font-weight: bold;
     color: #5e5e5e;
     font-size: 18px;
@@ -270,7 +270,7 @@ table {
   border-radius: 10px;
   text-align: center;
   margin-top: 20px;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Lobster Two', cursive;
   font-size: 30px;
   font-style: bold;
 }
