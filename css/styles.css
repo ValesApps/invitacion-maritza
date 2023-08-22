@@ -109,7 +109,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 33.75em;
     height: 100%;
     overflow: hidden;
     position: relative;
@@ -128,8 +128,8 @@ h1 {
 .carousel-image {
     width: auto;
     height: 100%;
-    background-size: cover;
-    background-position: center center;
+     object-fit: cover;
+
 }
 
 .carousel-button {
