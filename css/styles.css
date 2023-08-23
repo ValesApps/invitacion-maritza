@@ -39,7 +39,7 @@ main {
    
 }
 #popup-content {
-  background-color: linear-gradient(315deg, rgba(161, 54, 86, 1) 35%, rgba(136, 117, 114, 1) 64%); 
+  background-color:#f9f9c5; 
   width :70%; 
   padding :20px; 
   text-align:center; 
