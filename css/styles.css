@@ -645,10 +645,10 @@ font-family: 'Comfortaa', cursive;
 .blessing-name {
   text-align: center;
   width: 22%;
-  margin-bottom: 20px;
+  margin-bottom: 10px; /* Ajusta el valor del margen inferior según tus preferencias */
   background-color: #f9f9c5; /* Color de fondo */
   border-radius: 10px; /* Puntas redondeadas */
-  padding: 10px; /* Espaciado interno */
+  padding: 8px; /* Ajusta el valor del espaciado interno según tus preferencias */
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Sombra */
 }
 
@@ -665,4 +665,3 @@ font-family: 'Comfortaa', cursive;
   font-size: 18px;
   margin: 5px 0;
 }
-
