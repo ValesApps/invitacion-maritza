@@ -634,7 +634,7 @@ font-family: 'Comfortaa', cursive;
   font-weight: bold;
 }
 
-/* Estilos para los nombres de padrinos */
+/ /* Estilos para los nombres de padrinos */
 .blessing-names-container {
   display: flex;
   justify-content: space-around; /* Distribuye el espacio de manera uniforme entre los elementos */
@@ -645,10 +645,10 @@ font-family: 'Comfortaa', cursive;
 .blessing-name {
   text-align: center;
   width: 22%;
-  margin-bottom: 10px; /* Ajusta el valor del margen inferior según tus preferencias */
+  margin-bottom: 20px;
   background-color: #f9f9c5; /* Color de fondo */
   border-radius: 10px; /* Puntas redondeadas */
-  padding: 8px; /* Ajusta el valor del espaciado interno según tus preferencias */
+  padding: 10px; /* Espaciado interno */
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Sombra */
 }
 
@@ -664,4 +664,4 @@ font-family: 'Comfortaa', cursive;
 .blessing-name p {
   font-size: 18px;
   margin: 5px 0;
-}
+} 
