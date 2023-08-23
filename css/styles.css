@@ -1,6 +1,6 @@
 /* Estilos para la página #ffe9da original */
 body {
-    font-family: 'Noto Serif TC', serif;
+    font-family: 'Cinzel', serif;
     margin: 0;
     background: linear-gradient(rgba(245, 245, 220, 0.75), rgba(245, 245, 220, 0.75)), url(/source/marmol.jpg) no-repeat center center fixed;
     background-size: cover;
@@ -25,7 +25,7 @@ main {
     padding-top: 60px;
 }
 #popup {
-    font-family: 'Noto Serif TC', serif;
+    font-family: 'Cinzel', serif;
     position: fixed;
     top: 0;
     left: 0;
@@ -65,7 +65,7 @@ border-radius: 10px;
   z-index: 9999; /* Asegura que los botones estén en el frente */
 }
 h1 {
-  font-family: 'Noto Serif TC', serif; 
+  font-family: 'Cinzel', serif; 
   color : #ffffff; 
   font-size :90px;
   text-shadow: -5px 3px 3px #808080;
@@ -214,7 +214,7 @@ border: none;
       padding: 20px;
       border-radius: 10px;
       text-align: center;
-      margin-top: 20px;
+      margin-top: 5px;
 }
 .tituloceremony-container h2 {
       margin: 0;
