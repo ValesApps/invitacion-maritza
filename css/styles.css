@@ -634,7 +634,7 @@ font-family: 'Comfortaa', cursive;
   font-weight: bold;
 }
 
-/ /* Estilos para los nombres de padrinos */
+/* Estilos para los nombres de padrinos */
 .blessing-names-container {
   display: flex;
   justify-content: space-around; /* Distribuye el espacio de manera uniforme entre los elementos */
