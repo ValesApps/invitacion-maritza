@@ -39,7 +39,7 @@ main {
    
 }
 #popup-content {
-  background-color: #ffffff; 
+  background-color: linear-gradient(315deg, rgba(161, 54, 86, 1) 35%, rgba(136, 117, 114, 1) 64%); 
   width :70%; 
   padding :20px; 
   text-align:center; 
@@ -47,7 +47,7 @@ border-radius: 10px;
 }
 #accept-button {
     margin-top: 20px; 
-    background-color: #ada86d;
+    background-color: #b8860b;
     border: none; 
 }
 #pause-button,
