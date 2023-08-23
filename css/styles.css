@@ -219,7 +219,7 @@ border: none;
 .tituloceremony-container h2 {
       margin: 0;
       font-size: 24px;
-      font-family: 'Merienda', cursive;
+      font-family: 'Lobster Two', cursive;
 }
 
 .img-ceremony{
@@ -240,7 +240,7 @@ border: none;
 .ceremony-container h2 {
       font-size: 24px;
       text-shadow: -5px 3px 3px #808080;
-      font-family: 'Noto Serif TC', serif;
+      font-family: 'Lobster Two', cursive;
       margin: 0;
       text-align: center; /* Alinea el texto al centro horizontalmente */
 }
@@ -253,7 +253,7 @@ border: none;
 .ceremony-container h2 {
      font-size: 24px;
      text-shadow: -5px 3px 3px #808080;
-     font-family: 'Noto Serif TC', serif;
+     font-family: 'Lobster Two', cursive;
      margin: 0;
      text-align: center; /* Alinea el texto al centro horizontalmente */
 }
@@ -316,7 +316,7 @@ font-size: 20px; /* Ajusta el tamaño del icono según tus preferencias */
 .salon-section h2 {
     margin: 0;
       font-size: 24px;
-      font-family: 'Merienda', cursive;
+      font-family: 'Lobster Two', cursive;
 }
 
 /* Estilos para la sección del mapa del salon*/
@@ -357,12 +357,12 @@ font-size: 20px; /* Ajusta el tamaño del icono según tus preferencias */
 .dress-code-section h3 {
     margin: 0;
     font-size: 24px;
-    font-family: 'Merienda', cursive;
+    font-family: 'Lobster Two', cursive;
 }
 
 .dress-code-section p {
     font-size: 18px;
-    font-family: 'Noto Serif TC', serif;
+    font-family: 'Comfortaa', cursive;
     margin-bottom: 10px;
 }
 
@@ -391,12 +391,12 @@ font-size: 20px; /* Ajusta el tamaño del icono según tus preferencias */
 .sin-ninos-section h2 {
     margin: 0;
     font-size: 24px;
-    font-family:'Merienda', cursive;
+    font-family: 'Lobster Two', cursive;
 }
 
 .sin-ninos-section p {
     font-size: 18px;
-    font-family: 'Noto Serif TC', serif;
+    font-family: 'Comfortaa', cursive;
 }
 
 .child-icon {
@@ -419,13 +419,13 @@ font-size: 20px; /* Ajusta el tamaño del icono según tus preferencias */
 .mesa-de-regalos-section h2 {
     margin: 0;
     font-size: 24px;
-    font-family: 'Merienda', cursive;
+    font-family: 'Lobster Two', cursive;
     
 }
 
 .mesa-de-regalos-section p {
     font-size: 18px;
-    font-family: 'Noto Serif TC', serif;
+    font-family: 'Comfortaa', cursive;
     margin-bottom: 10px;
 }
 
@@ -438,7 +438,7 @@ font-size: 20px; /* Ajusta el tamaño del icono según tus preferencias */
     font-size: 16px; /* Tamaño de fuente reducido */
     border-radius: 5px;
     text-transform: uppercase;
-    font-family: 'Noto Serif TC', serif;
+    font-family: 'Comfortaa', cursive;
     text-decoration: none;
 }
 
@@ -485,6 +485,7 @@ border-radius: 10px;
 margin: 0;
 font-size: 24px;
 font-weight: bold;
+text-transform: uppercase;
 font-family: 'Lobster Two', cursive;
 }
 
@@ -501,7 +502,7 @@ color: #ffffff;
 font-size: 18px;
 border-radius: 5px;
 text-transform: uppercase;
-font-family: 'Noto Serif TC', serif;
+font-family: 'Comfortaa', cursive;
 transition: background-color 0.3s ease;
 }
 
@@ -550,7 +551,7 @@ padding: 20px;
 
 .frase {
 opacity: 0; /* Establecemos la opacidad inicial en 0 */
-font-family: 'Noto Serif TC', serif;
+font-family: 'Comfortaa', cursive;
 color: #5e5e5e;
 font-size: 18px;
 text-align: center;
@@ -592,7 +593,7 @@ color: #5e5e5e;
 }
 
 .reveal-text p {
-font-family: 'Pinyon Script', cursive;
+font-family: 'Lobster Two', cursive;
 font-size: 28px;
 margin: 0;
 color: #5e5e5e;
@@ -614,6 +615,8 @@ text-align: center;
 padding: 5em 0;
 font-style: bold;
 font-size: 21px;
+font-family: 'Comfortaa', cursive;
+    
 }
 .confirmation-button {
     margin: 5px;
