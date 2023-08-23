@@ -2,12 +2,12 @@
 body {
     font-family: 'Cinzel', serif;
     margin: 0;
-    background: linear-gradient(rgba(245, 245, 220, 0.75), rgba(245, 245, 220, 0.75)), url(/source/marmol_3.jpg) no-repeat center center fixed;
+    background: linear-gradient(315deg, rgba(161, 54, 86, 1) 35%, rgba(136, 117, 114, 1) 64%), url(/source/marmol_3.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 header {
-    background: linear-gradient(rgba(245, 245, 220, 0.35), rgba(245, 245, 220, 0.35)), url(/source/image4.jpg) no-repeat center center fixed;
+    background: linear-gradient(315deg, rgba(161, 54, 86, 1) 35%, rgba(136, 117, 114, 1) 64%), url(/source/image4.jpg) no-repeat center center fixed;
     background-size: cover;
     background-position: center center;
     height: 100vh;
