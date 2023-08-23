@@ -621,3 +621,39 @@ font-family: 'Comfortaa', cursive;
 .confirmation-button {
     margin: 5px;
 }
+
+/* Estilos para el título de bendición */
+.bendicion-title {
+  color: #000000;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Lobster Two', cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Estilos para los nombres de padrinos */
+.blessing-names-container {
+  display: flex;
+  justify-content: space-around; /* Distribuye el espacio de manera uniforme entre los elementos */
+  flex-wrap: wrap; /* Envuelve los elementos si no caben en una sola línea */
+  margin-top: 20px;
+}
+
+.blessing-name {
+  text-align: center;
+  width: 22%; /* Ajusta el ancho de cada bloque de nombre según tus preferencias */
+  margin-bottom: 20px;
+}
+
+.blessing-name img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.blessing-name p {
+  font-size: 18px;
+  margin: 5px 0;
+}
