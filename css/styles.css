@@ -644,8 +644,12 @@ font-family: 'Comfortaa', cursive;
 
 .blessing-name {
   text-align: center;
-  width: 22%; /* Ajusta el ancho de cada bloque de nombre según tus preferencias */
+  width: 22%;
   margin-bottom: 20px;
+  background-color: #f9f9c5; /* Color de fondo */
+  border-radius: 10px; /* Puntas redondeadas */
+  padding: 10px; /* Espaciado interno */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Sombra */
 }
 
 .blessing-name img {
@@ -653,7 +657,12 @@ font-family: 'Comfortaa', cursive;
   border-radius: 50%;
 }
 
+.blessing-name h4 {
+  margin-bottom: 5px; /* Espaciado inferior para el título */
+}
+
 .blessing-name p {
   font-size: 18px;
   margin: 5px 0;
 }
+
