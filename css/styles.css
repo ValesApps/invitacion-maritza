@@ -336,7 +336,9 @@ font-size: 20px; /* Ajusta el tamaño del icono según tus preferencias */
 
 #location-button {
     background-color: #b17304;
+    border-radius: 10px;
     border: none;
+    margin-top: 10px;
 }
 
 .img-novia-icon{
@@ -582,7 +584,7 @@ border-style: solid;
 .reveal-text {
 text-align: center;
 padding: 5px 0;
-background-color: #ffffff; /* Puedes ajustar el color de fondo según tus preferencias */
+/*background-color: #ffffff; /* Puedes ajustar el color de fondo según tus preferencias */
 }
 
 .reveal-text h2 {
