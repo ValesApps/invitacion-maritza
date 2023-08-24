@@ -233,6 +233,8 @@ sr.reveal('.carousel', { interval: 200 });
   sr.reveal('.container', { interval: 200 });
   sr.reveal('.tituloceremony-container', { interval: 200 });
   sr.reveal('.thank-you', { interval: 200 });
+ sr.reveal('.blessing-names-container', { interval: 200 });
+sr.reveal('.blessing-name', { interval: 200 });
 
 // Función para enviar mensaje de WhatsApp
 function confirmAttendanceToBride(phoneNumber) {
