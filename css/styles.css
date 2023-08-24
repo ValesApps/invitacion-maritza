@@ -542,7 +542,7 @@ height: 50px;
   font-weight: bold;
   text-transform: uppercase;
   font-family: 'Lobster Two', cursive;
-  color: #ffffff;
+  color: black;
 }
 
 .confirmation-form-container a {
@@ -561,7 +561,7 @@ height: 50px;
   border: none;
   cursor: pointer;
   padding: 10px 20px;
-  color: #ffffff;
+  color: black;
   font-size: 18px;
   border-radius: 5px;
   text-transform: uppercase;
