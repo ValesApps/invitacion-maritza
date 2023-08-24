@@ -47,7 +47,7 @@ border-radius: 10px;
 }
 #accept-button {
     margin-top: 20px; 
-    background-color: #b8860b;
+    background-color: #b17304; /*#b8860b;*/
     border: none; 
 }
 #pause-button,
@@ -59,7 +59,7 @@ border-radius: 10px;
   background:none; 
   border:none; 
   cursor:pointer; 
-  color : #81443c; 
+  color : #b17304; 
   font-size :24px; 
   outline:none;
   z-index: 9999; /* Asegura que los botones estén en el frente */
@@ -137,7 +137,7 @@ h1 {
     font-size: 2rem;
     background: none;
     border: none;
-    color: #ffffff;
+    color: #b17304;
     cursor: pointer;
     z-index: 1;
 }
@@ -203,7 +203,7 @@ margin: 0;
 }
 
 #location-button {
-background-color: #ada86d;
+background-color: #b17304; /*#ada86d;*/
 border: none;
 }
 
@@ -335,7 +335,7 @@ font-size: 20px; /* Ajusta el tamaño del icono según tus preferencias */
 }
 
 #location-button {
-    background-color: #ada86d;
+    background-color: #b17304;
     border: none;
 }
 
@@ -430,7 +430,7 @@ font-size: 20px; /* Ajusta el tamaño del icono según tus preferencias */
 }
 
 .mesa-de-regalos-button {
-    background-color: #ada86d;
+    background-color: #b17304;/*#ada86d;*/
     border: none;
     cursor: pointer;
     padding: 8px 15px; /* Tamaño del botón más pequeño */
@@ -494,7 +494,7 @@ text-decoration: none;
 }
 
 .confirmation-form-container button {
-background-color: #ada86d;
+background-color: #b17304;
 border: none;
 cursor: pointer;
 padding: 10px 20px;
@@ -507,7 +507,7 @@ transition: background-color 0.3s ease;
 }
 
 .confirmation-form-container button:hover {
-background-color: #cab700;
+background-color: #b17304;
 }
 
 .img-calendar{
@@ -620,6 +620,7 @@ font-family: 'Comfortaa', cursive;
 }
 .confirmation-button {
     margin: 5px;
+    color:#b17304;
 }
 
 /* Estilos para el título de bendición */
