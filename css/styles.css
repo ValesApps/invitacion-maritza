@@ -649,7 +649,7 @@ font-family: 'Comfortaa', cursive;
   background-color: #f9f9c5; /* Color de fondo */
   border-radius: 10px; /* Puntas redondeadas */
   padding: 10px; /* Espaciado interno */
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+  box-shadow: -3px 3px 3px #d9d9d9; /* Sombra */
 }
 
 .blessing-name img {
