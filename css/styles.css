@@ -649,10 +649,10 @@ font-family: 'Comfortaa', cursive;
   text-align: center;
   width: 40%;
   margin-bottom: 8px;
-  background-color: #f9f9c5; /* Color de fondo */
+  background-color: #b17304; /* Color de fondo */
   border-radius: 10px; /* Puntas redondeadas */
   padding: 10px; /* Espaciado interno */
-  box-shadow: -3px 3px 3px #d9d9d9; /* Sombra */
+  box-shadow: -3px 3px 3px #f9f9c5; /* Sombra */
 }
 
 .blessing-name img {
