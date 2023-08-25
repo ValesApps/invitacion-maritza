@@ -238,22 +238,22 @@ sr.reveal('.blessing-name', { interval: 200 });
 
 // Función para enviar mensaje de WhatsApp
 function confirmAttendanceToBride(phoneNumber) {
-    const message = "¡Hola! Quiero confirmar mi asistencia a tu boda. ¡Nos vemos pronto!";
+    const message = "¡Hola! Quiero confirmar que SÍ asistiré a tu boda, gracias por considerarme. ¡Nos vemos el gran día!";
     sendWhatsAppMessage(phoneNumber, message);
 }
 
 function confirmNotAttendanceToBride(phoneNumber) {
-    const message = "Hola, lamento informar que no podré asistir a tu boda picate la cola. ¡Espero que tengan un día maravilloso!";
+    const message = "Hola, lamento informar que NO podré asistir a tu boda, gracias por considerarme.¡Espero que tengan un día maravilloso, Felicidades!";
     sendWhatsAppMessage(phoneNumber, message);
 }
 
 function confirmAttendanceToGroom(phoneNumber) {
-    const message = "¡Hola! Quiero confirmar mi asistencia a tu boda. ¡Nos vemos pronto!";
+    const message = "¡Hola! Quiero confirmar que SÍ asistiré a tu boda, gracias por considerarme. ¡Nos vemos el gran día!";
     sendWhatsAppMessage(phoneNumber, message);
 }
 
 function confirmNotAttendanceToGroom(phoneNumber) {
-    const message = "Hola, lamento informar que no podré asistir a tu boda. ¡Espero que tengan un día maravilloso!";
+    const message = "Hola, lamento informar que NO podré asistir a tu boda, gracias por considerarme.¡Espero que tengan un día maravilloso, Felicidades!";
     sendWhatsAppMessage(phoneNumber, message);
 }
 
