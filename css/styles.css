@@ -492,7 +492,7 @@ margin: 0;
 font-size: 24px;
 font-weight: bold;
 text-transform: uppercase;
-font-family: 'Pinyon Script', cursive;
+font-family: 'Cinzel', serif;
 }
 
 .confirmation-form-container a {
@@ -617,9 +617,9 @@ width: auto;
 
 .thank-you p{
 text-align: center;
-padding: 5em 0;
+padding: 3em 0;
 font-style: bold;
-font-size: 21px;
+font-size: 18px;
 font-family: 'Comfortaa', cursive;
     
 }
