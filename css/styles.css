@@ -665,6 +665,7 @@ font-family: 'Comfortaa', cursive;
 
 .blessing-name h4 {
   margin-bottom: 5px; /* Espaciado inferior para el título */
+    font-family: 'Comfortaa', cursive;
 }
 
 .blessing-name p {
