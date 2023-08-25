@@ -652,7 +652,8 @@ font-family: 'Comfortaa', cursive;
   text-align: center;
   width: 40%;
   margin-bottom: 8px;
-  background-color: #976b2e; /* Color de fondo */
+  background: linear-gradient(45deg, rgba(110, 58, 74, 0.75) 0%, rgba(201, 201, 201, 0.75) 100%), url(/source/marmol_3.jpg) no-repeat center center fixed;
+  /*background-color: #976b2e; /* Color de fondo */
   border-radius: 10px; /* Puntas redondeadas */
   padding: 10px; /* Espaciado interno */
  /* box-shadow: -3px 3px 3px #f9f9c5; /* Sombra */
