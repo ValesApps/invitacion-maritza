@@ -704,10 +704,12 @@ font-family: 'Comfortaa', cursive;
 .padrino h4 {
   margin: 10px 0 5px;
   font-size: 20px;
+    font-family: 'Comfortaa', cursive;
 }
 
 .padrino p {
   font-size: 16px;
   margin: 0;
+    font-family: 'Comfortaa', cursive;
 }
 
