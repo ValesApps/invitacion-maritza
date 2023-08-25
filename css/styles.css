@@ -693,8 +693,10 @@ font-family: 'Comfortaa', cursive;
 }
 
 .padrino img {
-  max-width: 100%;
-  border-radius: 50%;
+     width: 50px;
+    height: 50px;
+  /*max-width: 100%;
+  border-radius: 50%;*/
 }
 
 .padrino h4 {
