@@ -160,7 +160,7 @@ h1 {
     text-align: justify;
     margin: 0 auto;
     max-width: 90%;
-    style="font-family: 'Comfortaa', cursive;"
+    font-family: 'Comfortaa', cursive;
     font-weight: bold;
     color: #5e5e5e;
     font-size: 18px;
