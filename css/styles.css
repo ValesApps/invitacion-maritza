@@ -488,11 +488,18 @@ color: #000000;
 padding: 20px;
 border-radius: 10px;
 }
-
-.confirmation-form-container p {
+confirmation-form-container h2 {
 margin: 0;
 font-size: 24px;
 font-weight: bold;
+text-transform: uppercase;
+font-family: 'Comfortaa', cursive;
+}
+
+.confirmation-form-container p {
+margin: 0;
+font-size: 18px;
+/*font-weight: bold;*/
 text-transform: uppercase;
 font-family: 'Cinzel', serif;
 }
