@@ -498,8 +498,8 @@ font-family: 'Comfortaa', cursive;
 
 .confirmation-form-container p {
 margin: 0;
-font-size: 18px;
-/*font-weight: bold;*/
+font-size: 15px;
+font-weight: bold;
 text-transform: uppercase;
 font-family: 'Cinzel', serif;
 }
