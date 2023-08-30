@@ -582,8 +582,8 @@ position: relative;
 
 .color-circle {
 display: inline-block;
-width: 1em; /* Ajusta el tamaño de los círculos */
-height: 1em; /* Igual que el ancho para mantener la forma circular */
+width: 2em; /* Ajusta el tamaño de los círculos */
+height: 2em; /* Igual que el ancho para mantener la forma circular */
 margin: 0 2px; /* Ajusta el espaciado entre los círculos */
 border-radius: 50%;
 border-color: #000000;
